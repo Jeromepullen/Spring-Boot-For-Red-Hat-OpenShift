@@ -12,7 +12,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String test() {
-		return "This is Jerome Pullen's test Spring Boot App for Red Hat Openshift";
+		return "This is Jerome Pullen's test Spring Boot App for Red Hat OpenShift";
 	}
 
 	@GetMapping("/{input}")
